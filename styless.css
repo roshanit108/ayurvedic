@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Dark black background */
+    color: #ffffff; /* White text for readability */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #1a1a1a; /* Dark black-gray header background */
+    color: #A020F0; /* Purple text in the header */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White text in navigation links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #A020F0; /* Purple color on hover */
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #1a1a1a; /* Dark black-gray background for the section */
+    padding: 40px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.about-us h2, .about-us h3 {
+    color: #A020F0; /* Purple headings */
+    transition: color 0.3s ease;
+}
+
+.about-us p, .about-us ul {
+    margin-bottom: 20px;
+    color: #cccccc; /* Light gray text for readability */
+}
+
+.about-us h2:hover, .about-us h3:hover {
+    color: #DDA0DD; /* Light purple color on hover */
+}
+
+/* Doctor Profile */
+.doctor-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.doctor-profile img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 250px; /* Increase the width */
+    height: 250px; /* Increase the height */
+    object-fit: cover;
+    border: 3px solid #A020F0; /* Purple border around the image */
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #1a1a1a; /* Dark black-gray background */
+    color: #cccccc; /* Light gray text for the footer */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #cccccc; /* Light gray text in footer links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #A020F0; /* Purple color on hover */
+}

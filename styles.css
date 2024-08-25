@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Sets the background color to black */
+    color: #ffffff; /* Sets the default text color to white for better visibility */
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #1a1a1a; /* Dark gray background for the navbar */
+}
+
+#nav img {
+    height: 40px;
+}
+
+#nav-part2 h4 {
+    margin: 0 15px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff; /* White text color for navbar links */
+}
+
+#nav-part2 h4:hover {
+    color: #6a0dad; /* Purple hover effect for navbar links */
+}
+
+#nav-part3 #circle {
+    width: 30px;
+    height: 30px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+#purple {
+    background-color: #6a0dad;
+    height: 100px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-image, .right-image {
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+}
+
+.text-content {
+    max-width: 400px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+
+.text-content h2 {
+    margin-top: 0;
+    color: #ffffff; /* White text color for headings */
+}
+
+.text-content p {
+    border: 2px solid #6a0dad; /* Adds a border to the paragraph */
+    padding: 10px;
+    color: #ffffff; /* White text color for paragraphs */
+    background-color: #1a1a1a; /* Dark gray background for paragraphs */
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.text-content ul, .text-content h3 {
+    margin-left: 20px;
+    color: #ffffff; /* White text color for lists and subheadings */
+    transition: transform 0.3s ease-in-out;
+}
+
+.text-content p:hover, .text-content ul:hover, .text-content h3:hover {
+    transform: scale(1.05);
+    color: #6a0dad;
+}
+
+.text-content p:hover {
+    border-color: #4b0082; /* Changes the border color on hover */
+}
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #6a0dad; /* Purple border */
+    margin: 0 5px;
+    background-color: #1a1a1a; /* Background color for pagination */
+}
+
+.pagination a.active {
+    background-color: #6a0dad;
+    color: white;
+    border: 1px solid #6a0dad;
+}
+
+.pagination a:hover {
+    background-color: #4b0082;
+    border: 1px solid #4b0082;
+}
+
+
+
+
+
+
+
